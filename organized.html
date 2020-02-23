@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Organized Code</title>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+      h1{
+        color: #ab3560;
+      }
+      body{
+        background-color: #cae8e6;
+        background-image: 
+      }
+      
+      div{
+        padding-top:1em;
+        padding-left:1em;
+        border: .5em solid red;
+        margin-top:1em;
+        background:yellow;
+        width:40%;
+      }
+      
+      section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .divider{
+        font-family:"Arial";
+      }
+    </style>
+    
+  </head>
+  <body>
+  <section>
+    
+    <div id="first" class="divider" style="float: left;">
+      <h1> 
+        First Division of my page.
+      </h1>
+      <p>
+        This is my paragraph inside a div
+      </p>
+    </div>
+    
+    <div style="float: right;">
+      <h2 style="color:#fcba03; font-size:50px; background-color:red;">
+        Second Division of my page.
+      </h2>
+      <p>
+        This is my paragraph inside a div
+        <a href="#first">Anchor to div1</a>
+      </p>
+    </div>
+    
+    <div style="float: left;">
+      <h2 style="color:#fcba03; font-size:50px; background-color:red;">
+        Third Division of my page.
+      </h2>
+      <p>
+        This is my paragraph inside a div
+        <a href="#first">Anchor to div1</a>
+      </p>
+    </div>
+    
+  </section>
+  </body>
+</html>
+
+<!--ids name only used for one, class can be reused->
